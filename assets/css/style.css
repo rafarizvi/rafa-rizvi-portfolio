@@ -50,9 +50,65 @@ header h2 {
 
 section {
     display: flex;
-    list-style: none;
 }
 
+
+/* subtopics in main sections (h2) */
+
+#about-me h2 {
+    display: flex;
+    margin: 20px auto 100px 10px;
+    padding-left: 80px;
+    padding-right: 10px;
+    text-align: right;
+    border-right: solid 5px white;
+} 
+
+#work h2 {
+    display: flex;
+    margin: 20px auto 100px 10px;
+    padding-left: 80px;
+    padding-right: 10px;
+    text-align: right; 
+    border-right: solid 5px white;  
+}
+
+#contact-me h2 {
+    display: flex;
+    margin: 20px auto 100px 10px;
+    padding-left: 80px; 
+    padding-right: 10px;
+    text-align: right;
+    border-right: solid 5px white;   
+}
+
+
+/*  content in main sections */
+#about-me p {
+    display: flex;
+    margin-left: 0px;
+    padding-left: 30px;
+    
+    margin-top: 20px;
+}
+
+#work ul {
+    list-style: none;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 30px;
+    
+    margin-top: 20px;
+}
+
+#contact-me ul {
+    list-style: none;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 30px;
+   
+    margin-top: 20px;
+}
 
 
 /*  
