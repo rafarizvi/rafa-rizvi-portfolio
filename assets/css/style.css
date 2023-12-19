@@ -5,15 +5,18 @@
 
 
 body {
-    background-color: black;
+    /* background-color: ; */
     color: white;
+    background: rgb(81, 10, 10);
+    background: radial-gradient(circle, rgb(92, 12, 12) 8%, rgba(0,0,0,1) 80%);
+    
 }
 
 header {
     background-image: url(../images/header1.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    border-bottom: solid 5px rgb(255, 87, 75);    
 }
 
 nav {
@@ -48,81 +51,67 @@ header h2 {
     padding: 22px 40px;
 }
 
-section {
+main {
     display: flex;
 }
 
-
-/* subtopics in main sections (h2) */
-
-#about-me h2 {
+.container-1 {
+    /* border: solid 3px red; */
     display: flex;
-    margin: 20px auto 100px 10px;
-    padding-left: 80px;
-    padding-right: 10px;
+    flex-direction: column;
     text-align: right;
-    border-right: solid 5px white;
-} 
-
-#work h2 {
-    display: flex;
-    margin: 20px auto 100px 10px;
-    padding-left: 80px;
-    padding-right: 10px;
-    text-align: right; 
-    border-right: solid 5px white;  
+    flex: 1;
+    margin-top: 20px;
 }
 
-#contact-me h2 {
+
+.container-2 {
+    /* border: solid 3px red; */
     display: flex;
-    margin: 20px auto 100px 10px;
-    padding-left: 80px; 
-    padding-right: 10px;
-    text-align: right;
-    border-right: solid 5px white;   
+    flex-direction: column;
+    text-align: left;
+    flex: 5;
+    margin-top: 20px;
 }
+
+
+
+#a {
+    padding: 15px 20px 110px 10px;
+    margin: 10px 10px;
+    /* border-right: solid 1px rgb(126, 121, 121); */
+    box-shadow: 7px 0px 3px -3px rgb(255, 87, 75);
+}
+
+#b {
+    padding: 10px 20px 166px 10px;
+    margin: 10px 10px;
+    box-shadow: 7px 0px 3px -3px rgb(255, 87, 75);
+}
+
+#c {
+    padding: 10px 20px 20px 10px;
+    margin: 10px 10px;
+    box-shadow: 7px 0px 3px -3px rgb(255, 87, 75);
+}
+ 
 
 
 /*  content in main sections */
 #about-me p {
-    display: flex;
-    margin-left: 0px;
-    padding-left: 30px;
+    padding: 15px 20px 100px 20px;
     
-    margin-top: 20px;
 }
 
 #work ul {
     list-style: none;
     display: flex;
-    margin-left: 0px;
-    padding-left: 30px;
+    padding: 40px 20px 100px 20px;
+} 
     
-    margin-top: 20px;
-}
 
 #contact-me ul {
     list-style: none;
     display: flex;
-    margin-left: 0px;
-    padding-left: 30px;
-   
-    margin-top: 20px;
+    padding: 110px 5px 100px 20px;
 }
-
-
-/*  
-#about-me {
-
-
-}
-
-#work {
-
-}
-
-#contact-me {
-
-}
-
- */
