@@ -17,7 +17,6 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
 body {
     /* background-color: ; */
     color: white;
@@ -45,6 +44,7 @@ h1 {
     display: flex;
     border: solid 3px white;
     border-radius: 10px;
+    background-color: rgba(209, 209, 209, 0.191);
 }
 
 nav ul {
@@ -80,6 +80,7 @@ header h2 {
     border: solid 3px white;
     border-radius: 10px;
     padding: 4px 10px;
+    background-color: rgba(209, 209, 209, 0.191);
 }
 
 main {
@@ -113,8 +114,7 @@ main {
     justify-content: space-around; 
 }
 
-
-/* Sub-topics on left side of the page */
+/*------------ Sub-topics on left side of the page ------------------*/
 #a {
     padding: 15px 50px 170px 10px;
 }
@@ -134,9 +134,7 @@ main {
     box-shadow: 7px 0px 3px -3px rgb(255, 87, 75);
 }
  
-
-
-/*----------------------content in main sections -----------------*/
+/*---------------------- content in main sections -----------------*/
 
 /* About Me section */
 #about-me p {
