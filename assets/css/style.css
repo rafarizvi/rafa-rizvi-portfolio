@@ -4,19 +4,6 @@
     line-height: 1.5;
 }
 
-li {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-p {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-h1,
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 body {
     /* background-color: ; */
     color: white;
@@ -115,14 +102,28 @@ main {
 }
 
 /*------------ Sub-topics on left side of the page ------------------*/
-#a {
-    padding: 15px 50px 170px 10px;
+
+/* About */
+#a {  
+    padding: 15px 50px 55px 10px;
 }
 
+#a img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 1px rgb(255, 87, 75);
+}
+
+/* Work */
 #w {
     padding: 10px 50px 496px 10px;
 }
+    
+    
+    /* transform: translate(240px, -720px); */
 
+/* Contact Me */
 #c {
     padding: 10px 50px 20px 10px;
 }
@@ -154,6 +155,7 @@ main {
 img {
     width: 100%;
     Height: 100%;
+    border-radius: 10px;
 }
 
 .img-1 {
@@ -161,6 +163,7 @@ img {
     width: 554px;
     height: 240px; 
     border: solid 2px rgb(163, 255, 244);
+    border-radius: 12px;
     margin: 5px;
 }
 
@@ -169,16 +172,18 @@ img {
     width: 270px;
     height: 120px; 
     border: solid 2px rgb(163, 255, 244);
+    border-radius: 12px;
     margin: 5px;
 }
 
 .img-text {
     position: absolute;
     margin-top: 0px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: rgb(255, 87, 75);
     box-shadow: 3px -2px 5px 2px grey;
-    transform: translate(-2px, -70px);
+    transform: translate(-2px, -75px);
+    border-bottom-left-radius: 5px;
 }
 
 /* Contact Me section */
@@ -190,5 +195,33 @@ img {
 
 #contact-me li {
     margin-right: 44px;
+}
+
+#contact-me a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+h6 {
+    font-weight: normal;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h4,
+h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h6 {
+    font-weight: normal;
 }
 
