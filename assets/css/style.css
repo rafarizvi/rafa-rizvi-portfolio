@@ -5,7 +5,6 @@
 }
 
 body {
-    /* background-color: ; */
     color: white;
     background-color: black;
     background: rgb(10, 89, 121);
@@ -76,14 +75,12 @@ main {
 
 /* uses flex box and encompasses all sub-topics on the left side of the page */
 .container-1 {
-    /* border: solid 3px red; */
     display: flex;
     flex-direction: column;
     text-align: right;
     flex: 1;
     margin-top: 20px;
     margin-left: 0px;
-    /* min-width: 200px; */
     max-width: 400px;
     justify-content: space-around; 
 }
@@ -97,11 +94,10 @@ main {
     margin-top: 35px;
     max-width: 600px;
     margin-left: 50px;
-    /* border: solid 3px red; */
     justify-content: space-around; 
 }
 
-/*------------ Sub-topics on left side of the page ------------------*/
+/*------------ topics on left side of the page ------------------*/
 
 /* About */
 #a {  
@@ -118,10 +114,7 @@ main {
 /* Work */
 #w {
     padding: 10px 50px 496px 10px;
-}
-    
-    
-    /* transform: translate(240px, -720px); */
+}   
 
 /* Contact Me */
 #c {
@@ -135,7 +128,7 @@ main {
     box-shadow: 7px 0px 3px -3px rgb(255, 87, 75);
 }
  
-/*---------------------- content in main sections -----------------*/
+/*---------------------- content in the topcs  -------------------*/
 
 /* About Me section */
 #about-me p {
@@ -158,6 +151,7 @@ img {
     border-radius: 10px;
 }
 
+/* larger image only */
 .img-1 {
     position: relative;
     width: 554px;
@@ -167,6 +161,7 @@ img {
     margin: 5px;
 }
 
+/* all other images */
 .img-2 {
     position: relative;
     width: 270px;
@@ -176,6 +171,7 @@ img {
     margin: 5px;
 }
 
+/* text over all images */
 .img-text {
     position: absolute;
     margin-top: 0px;
@@ -202,9 +198,7 @@ img {
     color:aliceblue;
 }
 
-h6 {
-    font-weight: normal;
-}
+/* typography */
 
 li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
